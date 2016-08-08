@@ -6,7 +6,7 @@
   "web_accessible_resources": [],
   "content_scripts": [
     {
-      "matches": ["http://listen.tidal.com/*"],
+      "matches": ["*://listen.tidal.com/*"],
       "js": ["tidal.js"]
     }
   ]
